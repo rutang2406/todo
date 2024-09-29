@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(186, 218, 255);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.ta{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#task-list{
+    background-color:#fff;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 2px;
+}
+#add-task{
+    height:32px;
+    width: 50px;
+    margin-left: -5px;
+    color: aliceblue;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+#add-task:hover{
+    background-color: rgb(251, 131, 131);
+    cursor: pointer;
+}
+.listsfortask{
+    height: 40px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(25, 25, 112);
+    color: rgb(253, 94, 83);
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin:30px auto;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    margin-left:auto ;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.task-checkbox{
+    margin-right: 7px;
+    border: none;
+
+}
+.container button{
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+.container button:hover {
+    background-color: #a9a9a9; 
+    cursor: pointer;
+}
